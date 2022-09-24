@@ -1,11 +1,13 @@
 const config = {
-	content: ['./src/**/*.{html,js,svelte,ts}'],
+  content: ['./src/**/*.{html,js,svelte,ts}'],
 
-	theme: {
-		extend: {}
-	},
+  theme: {
+    extend: {}
+  },
 
-	plugins: []
+  plugins: [
+    require('tailwind-scrollbar')({nocompatible: true})
+  ]
 };
 
 module.exports = config;
