@@ -19,7 +19,6 @@
     {/each}
   </div>
 </div>
-
 <style lang="scss">
   .lista-boy, .lista-girl {
     position: relative;

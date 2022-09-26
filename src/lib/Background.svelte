@@ -6,12 +6,13 @@
     boy: 'bg-blue-100',
     girl: 'bg-pink-100'
   };
+
 </script>
 
 <div class="relative min-h-screen min-w-full">
   <div class="min-h-screen min-w-full flex">
-    <div class="boy {colors.boy} min-h-full" style="--boy-syze: {rank.boy}%" />
-    <div class="girl {colors.girl} min-h-full" style="--girl-size: {rank.girl}%" />
+    <div class="boy min-h-full {colors.boy}" style="--boy-syze: {rank.boy}%" />
+    <div class="girl min-h-full {colors.girl}" style="--girl-size: {rank.girl}%" />
   </div>
   <div class="absolute top-0 left-0 min-w-full min-h-screen bg-transparent">
     <slot />

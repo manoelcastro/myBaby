@@ -5,7 +5,6 @@
   import Teams from '$lib/Teams.svelte';
   import person1 from '$lib/assets/person1.jpeg';
 
-  console.log(person1);
   const people: IPerson[] = [
     {
       name: 'Joaquim Pereira',
@@ -97,9 +96,10 @@
 
   $: boy = metrica;
   $: girl = 100 - metrica;
+
 </script>
 
-<Background rank={{ boy, girl }}>
+<Background rank={{ boy, girl }} >
   <div class="min-h-screen min-w-full flex justify-center items-center">
     <div class="flex flex-col justify-between items-center gap-8">
       <Vote bind:metrica />
