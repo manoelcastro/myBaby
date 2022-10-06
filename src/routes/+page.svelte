@@ -105,13 +105,11 @@
 <Background rank={{ boy, girl }} >
   <div class="min-h-screen min-w-full flex justify-center items-center">
     <div class="min-w-full gap-28 flex flex-col items-center">
+      <h2 class="text-5xl text-pink-600 font-['Luckiest_Guy']">O que é... o que é?</h2>
       {#if (!voted)}
       <Vote bind:metrica bind:voted />
-      <h2 class="text-5xl text-pink-600 font-['Luckiest_Guy']">O que e, o que e?</h2>
       {:else}
       <Teams {people} />
-      <p>Times feitos...</p>
-      <p>Bora pro jogo!</p>
       {/if}
     </div>
   </div>
