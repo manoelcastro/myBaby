@@ -3,8 +3,8 @@
 
   export let rank: IRank;
   export let colors: IColors = {
-    boy: 'bg-blue-100',
-    girl: 'bg-pink-100'
+    boy: 'bg-green-200',
+    girl: 'bg-fuchsia-200'
   };
 
 </script>

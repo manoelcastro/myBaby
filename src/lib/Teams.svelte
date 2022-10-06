@@ -3,7 +3,7 @@
   export let people: IPerson[];
 </script>
 
-<div class="flex justify-between gap-28 h-36">
+<div class="flex justify-between gap-28 h-60 text-sm font-['Cabin']">
   <div class="h-full w-96 p-2 bg-slate-50 text-blue-600 border-blue-400 rounded-lg border-8 overflow-y-scroll scrollbar-thin scrollbar-thumb-blue-100 scrollbar-thumb-rounded">
     {#each people as person}
       {#if person.vote === 'boy'}

@@ -1,8 +1,20 @@
 <svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
-
  <g>
   <title>Layer 1</title>
-  <rect id="svg_2" height="268" width="51" y="6.2" x="374.49999" stroke="#000" fill="#fff"/>
-  <ellipse stroke-width="10" ry="34" rx="36" id="svg_1" cy="305.2" cx="399.99999" stroke="#ff007f" fill="#fff"/>
+  <ellipse stroke-width="10" ry="45" rx="45" id="svg_7" cy="524.7567" cx="639.17525" stroke="#ffffff" fill="#fff"/>
+  <ellipse stroke-width="10" ry="45" rx="45" id="svg_6" cy="349.5299" cx="639.17525" stroke="#ffffff" fill="#fff"/>
+  <rect stroke-width="0" id="svg_5" height="125.73196" width="48" y="373.2103" x="615.17525" fill="#fff" stroke="#000"/>
+  <rect stroke-width="0" id="svg_4" height="125.73196" width="48" y="203.30739" x="615.17523" fill="#fff" stroke="#000"/>
+  <ellipse stroke-width="10" ry="45" rx="45" id="svg_3" cy="171.86" cx="639.17525" stroke="#ffffff" fill="#ffffff"/>
+  <rect stroke-width="0" id="svg_14" height="125.73196" width="30" y="203.30739" x="624.17523" fill="#fff" stroke="#000"/>
+  <rect stroke-width="0" id="svg_2" height="125.73196" width="30" y="373.2103" x="624.17525" fill="#ff007b" stroke="#000"/>
+  <ellipse stroke-width="10" ry="36" rx="36" id="svg_1" cy="523.7567" cx="639.17525" stroke="#ff007f" fill="#fff"/>
+  <ellipse stroke-width="10" ry="36" rx="36" id="svg_13" cy="349.5299" cx="639.17525" stroke="#ff007f" fill="#fff"/>
+  <ellipse stroke-width="10" ry="36" rx="36" id="svg_15" cy="171.86" cx="639.17525" stroke="#ff007f" fill="#fff"/>
+  <path fill="#fff" stroke="#ff007f" stroke-width="2" opacity="NaN" d="m38.83495,261.16505" id="svg_18"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Cabin'" font-size="24" id="svg_8" y="180.26" x="626.68325" stroke-width="0" stroke="#000" fill="#000000">5k</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Cabin'" font-size="24" id="svg_9" y="357.92989" x="626.88726" stroke-width="0" stroke="#000" fill="#000000">2k</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Cabin'" font-size="24" id="svg_11" y="532.15667" x="629.26322" stroke-width="0" stroke="#000" fill="#000000">1k</text>
  </g>
+
 </svg>
